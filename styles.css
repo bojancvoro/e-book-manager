@@ -1,0 +1,59 @@
+section {
+    float: left;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.filters {
+    width: 20%;
+}
+
+.books {
+    width: 40%;
+}
+
+.book-detail {
+    width: 30%;
+}
+
+header, main {
+    text-align: center;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.search-results {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+
+    padding: 0 5%;
+    background-color: lavenderblush;
+    z-index: 2;
+}
+
+li {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+select {
+    display: block;
+}
+
+span {
+    border-right: 1px solid black;
+    display: inline-block;
+    width: 80px;
+}

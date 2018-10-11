@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="text" placeholder="Search Books Online" class="online-search">
+        <input type="text" placeholder="Search Your Library" class="local-search">
+        <ul class="search-results"></ul>
+    </header>
+    <main>
+        <section class="filters">
+            <select name="authors" id="authors">
+                <option disabled selected value="">Filter by Author</option>
+            </select>
+            <select name="tags" id="tags">
+                <option disabled selected value="">Filter by tag</option>
+            </select>
+        </section>
+        <section class="books">
+            <ul class="book-list"></ul>
+        </section>
+        <section class="book-detail">
+            <iframe width="200" height="300" src="bookDetails.html" frameborder="0"></iframe>
+        </section>
+    </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
